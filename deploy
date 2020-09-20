@@ -1,0 +1,21 @@
+# git
+git submodule update --init --recursive
+
+# backup
+mv ~/.zshrc ~/.zshrc.old
+mv ~/.tmux.conf ~/.tmux.conf.old
+mv ~/.vimrc ~/.vimrc.old
+
+# log
+LOG_DIR=$HOME/dotfiles/logs
+mkdir -p $LOG_DIR
+
+# link config
+printf "source ~/dotfiles/zsh/zshrc.sh >>${LOG_DIR}/zsh.log 2>&1" > ~/.zshrc
+printf "source-file ~/dotfiles/tmux/tmux.conf" > ~/.tmux.conf
+printf "so ~/dotfiles/vim/init.vim" > ~/.vimrc
+
+for arg in "$@"
+do
+    printf "\nsource ~/dotfiles/zsh/${arg}.sh" >> ~/.zshrc
+done

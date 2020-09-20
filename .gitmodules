@@ -1,0 +1,21 @@
+[submodule "zsh/plugins/oh-my-zsh"]
+	path = zsh/plugins/oh-my-zsh
+	url = https://gitee.com/mirrors/oh-my-zsh.git
+[submodule "zsh/plugins/oh-my-zsh-custom/plugins/zsh-syntax-highlighting"]
+	path = zsh/plugins/oh-my-zsh-custom/plugins/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
+[submodule "zsh/plugins/oh-my-zsh-custom/themes/powerlevel10k"]
+	path = zsh/plugins/oh-my-zsh-custom/themes/powerlevel10k
+	url = https://gitee.com/romkatv/powerlevel10k.git
+[submodule "tmux/plugins/tpm"]
+	path = tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm
+[submodule "tmux/plugins/tmux-sensible"]
+	path = tmux/plugins/tmux-sensible
+	url = https://github.com/tmux-plugins/tmux-sensible
+[submodule "tmux/plugins/vim-tmux-navigator"]
+	path = tmux/plugins/vim-tmux-navigator
+	url = https://github.com/christoomey/vim-tmux-navigator
+[submodule "tmux/plugins/tmux-themepack"]
+	path = tmux/plugins/tmux-themepack
+	url = https://github.com/jimeh/tmux-themepack

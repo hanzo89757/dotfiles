@@ -1,0 +1,2 @@
+# Custom cd
+chpwd() ls
