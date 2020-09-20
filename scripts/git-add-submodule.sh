@@ -13,4 +13,3 @@ git submodule add --depth 1 https://gitee.com/romkatv/powerlevel10k.git zsh/plug
 git submodule add --depth 1 https://github.com/tmux-plugins/tpm tmux/plugins/tpm
 git submodule add --depth 1 https://github.com/tmux-plugins/tmux-sensible tmux/plugins/tmux-sensible
 git submodule add --depth 1 https://github.com/christoomey/vim-tmux-navigator tmux/plugins/vim-tmux-navigator
-git submodule add --depth 1 https://github.com/jimeh/tmux-themepack tmux/plugins/tmux-themepack
