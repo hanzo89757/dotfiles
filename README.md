@@ -2,6 +2,8 @@
 
 ```shell
 git clone --depth 1 https://github.com/hanzo89757/dotfiles.git
+
+./deploy [zsh_script_name]
 ```
 
 ## zsh
