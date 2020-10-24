@@ -1,5 +1,5 @@
 # git
-git submodule update --init --recursive --depth 1
+git submodule update --init --recursive
 
 # backup
 mv ~/.zshrc ~/.zshrc.old
